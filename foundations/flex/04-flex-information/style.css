@@ -10,6 +10,29 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.pics {
+  display: flex;
+  /* border: 2px solid red; */
+  margin: 52px;
+}
+
+.pics div{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.text {
+  padding: 0px 52px;
+  /* border: 2px solid red; */
 }
 
 /* do not edit this footer */
@@ -23,4 +46,10 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+
+/* answer */
+.info {
+  max-width: 200px;
 }
